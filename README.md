@@ -26,6 +26,7 @@ An intelligent book recommendation system powered by AI that uses semantic searc
 
 - Python 3.10+
 - OpenAI API key (stored in `.env` file)
+- Hugging Face API key (stored in `.env` file)
 - GPU recommended for optimal performance (transformers models)
 
 ## 🚀 Installation
@@ -45,7 +46,7 @@ pip install pandas numpy python-dotenv langchain-community langchain-openai lang
 ```
 HUGGING_FACE_TOKEN=your_hugging_face_token_key
 OPENAI_API_KEY=your_api_key_here (if OpenAIEmbedding is used)
-GEMINI_API_KEY=your_api_key_here
+
 ```
 
 ## 📊 Data Processing Pipeline
